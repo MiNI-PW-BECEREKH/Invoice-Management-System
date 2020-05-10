@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></meta>
+    </head>
+    <body>
+        <p><u>FILTER INVOICES</u></p>
+        <form name="SearchForm" action="filterinvoices" method="get">
+            <table cellspacing="2" cellpadding="3" border="1" width="50%">
+                <tr>
+                    <td style="text-align:left" width="50%">INVOICE DATE FROM</td>
+                    <td style="text-align:right" width="50%">
+                            <input style="width: 100%;" type="text" name="invoicedatefrom"/>
+                        </td>
+                </tr><tr>
+                    <td style="text-align:left" width="50%">INVOICE DATE TO</td>
+                    <td style="text-align:right" width="50%">
+                            <input style="width: 100%;" type="text" name="invoicedateto"/>
+                        </td>
+                </tr><tr>
+                    <td style="text-align:left" width="50%">MIN NET AMOUNT</td>
+                    <td style="text-align:right" width="50%">
+                            <input style="width: 100%;" type="text" name="minnetamount"/>
+                        </td>
+                </tr><tr>
+                    <td style="text-align:left" width="50%">MAX NET AMOUNT</td>
+                    <td style="text-align:right" width="50%">
+                            <input style="width: 100%;" type="text" name="maxnetamount"/>
+                        </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
