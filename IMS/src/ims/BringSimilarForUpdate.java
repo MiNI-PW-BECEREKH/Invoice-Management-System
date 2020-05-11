@@ -24,7 +24,7 @@ public class BringSimilarForUpdate extends HttpServlet {
                out.println("<form name=\"UpdateSimilarForm\" action=\"updateinvoice\" method=\"get\">");
                out.println("<table cellspacing=\"2\" cellpadding=\"3\" border=\"1\" width=\"50%\">");
                
-                out.println("</tr><tr><td width=\"50%\">INVOICE NUMBER</td><td width=\"50%\"><input style=\"width: 100%;\" type=\"text\" name=\"invoicenumber\" value=\"" 
+                out.println("</tr><tr><td width=\"50%\">INVOICE NUMBER</td><td width=\"50%\"><input readonly=\"readonly\" style=\"width: 100%;\" type=\"text\"  name=\"invoicenumber\" value=\"" 
                     + request.getParameter("invoicenumber") + "\"/></td>");
                out.println("</tr><tr><td width=\"50%\">DATE</td><td width=\"50%\"><input style=\"width: 100%;\" type=\"text\" name=\"invoicedate\" value=\"" 
                            + request.getParameter("invoicedate").substring(0, 10) + "\"/></td>");

@@ -5,6 +5,7 @@
   <servlet>
     <servlet-name>InvoiceViewer</servlet-name>
     <servlet-class>ims.InvoiceViewer</servlet-class>
+    <load-on-startup>0</load-on-startup>
   </servlet>
   <servlet>
     <servlet-name>FilterInvoices</servlet-name>
